@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "User Details";
+}
+
+<h2>User Details</h2>
+
+@if (ViewBag.Message != null)
+{
+    <p>@ViewBag.Message</p>
+}
+else
+{
+
+    <p><strong>Sid:</strong>@ViewBag.Id</p>
+
+    <p><strong>UserName:</strong>@ViewBag.Username</p>
+
+    <p><strong>Full Name:</strong>@ViewBag.FullName</p>
+
+    <p><strong>Email:</strong>@ViewBag.Email</p>
+
+    <p><strong>Phone Number:</strong>@ViewBag.Phone</p>
+
+}
